@@ -1,0 +1,98 @@
+*{
+    margin : 0;
+    padding :0;
+    
+
+}
+  body{
+    
+    background: linear-gradient(rgb(192, 182, 255),lightblue); ;   
+
+  }
+     /*----NAVBAR-----*/
+
+ .navbar{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(97, 97, 101);
+      position: sticky;
+      top: 0;
+
+  }
+  .navbar ul{
+      display: flex;
+      list-style: none;
+      margin :20px 0px;
+
+  }
+  .navbar ul li{
+      font-family:sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      
+  }
+   .navbar ul li  a{
+       text-decoration: none;
+       color: beige;
+       padding: 8px 25px;
+       transition: all .5s ease;
+   }
+   .navbar ul li a:hover{
+       background-color: aliceblue;
+       color: black;
+       box-shadow: 0 0 10px white;
+   }
+     
+    /*------LETS GROW MORE LOGO-------*/
+ .logo{
+    width: 150px;
+    top: 2px;
+    padding: 5 7px;
+    left: unset;
+    
+     
+ }
+
+  /*-----Main Section------*/
+  .main{
+     margin-left:8%;
+     margin-top: 15%;
+   }
+  .main h1{
+      font-size: 50px;
+      color: #212121;
+      margin-bottom: 20px;
+
+  }
+  span{
+       color: orange;
+       text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                     0 3px 0 #ccc, 0 4px 0 #ccc,
+                     0 5px 0 #ccc, 0 6px 0 #ccc,
+                     0 7px 0 #ccc, 0 8px 0 #ccc,
+                     0 9px 0 #ccc, 0 10px 0 #ccc,
+                     0 11px 0 #ccc, 0 12px 0 #ccc,
+                     0 20px 30px rgba(0, 0, 0, 0.5);
+  }
+  p{
+      color: red;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                     0 3px 0 #ccc, 0 4px 0 #ccc,
+                     
+                     0 20px 30px rgba(0, 0, 0, 0.5);
+
+  }
+
+  .img img{
+       
+    position:absolute;
+    border-radius: 50%;
+    top: 30%;
+    right: 10%;
+    width: 250px;
+   
+    
+      }
+  
