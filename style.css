@@ -4,6 +4,9 @@
     
 
 }
+html{
+	scroll-behavior: smooth;
+}
   body{
     
     background: linear-gradient(rgb(192, 182, 255),lightblue); ;   
